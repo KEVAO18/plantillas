@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name='viewport' content='width=device-width, user-scalable=no'>
     <meta name="author" content="Kevin Orrego">
     <meta name="description" content="">
     <meta name="keywords" content=""/>
@@ -71,59 +70,111 @@
       /****************************/
 
       
-      .banner{
-        background: url('https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; 
-        background-attachment: fixed;
-        border-top-left-radius: 0 200%;
-        padding-top: 50px; 
-        padding-bottom: 50px;
-        border-bottom-left-radius: 50%; 
-        border-bottom-right-radius: 50%; 
+      @media (min-width: 720px) {
+        .banner{
+          background: url('https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; 
+          background-attachment: fixed;
+          border-top-left-radius: 0 200%;
+          padding-top: 50px; 
+          padding-bottom: 50px;
+          border-bottom-left-radius: 50%; 
+          border-bottom-right-radius: 50%; 
+        }
+
+        .img-banner{
+          width: 20%;
+          border: solid;
+          border-radius: 15px;
+          border-color: var(--color-2);
+          border-bottom-right-radius: 50%;
+          border-top-left-radius: 50%;
+          padding: 12px; 
+        }
+
+        .title{
+          font-family: 'Dancing Script', cursive;
+          font-size: 60px;
+          text-shadow: 9px -9px 15px #333333;
+        }
+
+        .banner-container-text{
+          color: #ececec;
+          width: 70%;
+          float: left;
+          padding-left: 0%;
+          text-align: center;
+          padding-top: 4%;
+        }
+
+        .p{
+          font-family: 'Dancing Script', cursive;
+          font-size: 30px;    
+        }
+
+        .p2{
+          font-family: 'Dancing Script', cursive;
+          font-size: 60px;    
+        }
       }
 
-      .img-banner{
-        width: 20%;
-        border: solid;
-        border-radius: 15px;
-        border-color: var(--color-2);
-        border-bottom-right-radius: 50%;
-        border-top-left-radius: 50%;
-        padding: 12px; 
-      }
+      @media (max-width: 719px) {
+        .banner{
+          background: url('https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 50vh; 
+          background-attachment: fixed;
+          border-top-left-radius: 0 200%;
+          padding-top: 50px; 
+          padding-bottom: 50px;
+          border-bottom-left-radius: 50%; 
+          border-bottom-right-radius: 50%; 
+        }
 
-      .title{
-        font-family: 'Dancing Script', cursive;
-        font-size: 60px;
-        text-shadow: 9px -9px 15px #333333;
-      }
+        .img-banner{
+          width: 20%;
+          border: solid;
+          border-radius: 15px;
+          border-color: var(--color-2);
+          border-bottom-right-radius: 50%;
+          border-top-left-radius: 50%;
+          padding: 12px; 
+        }
 
-      .banner-container-text{
-        color: #ececec;
-        width: 70%;
-        float: left;
-        padding-left: 0%;
-        text-align: center;
-        padding-top: 4%;
-      }
+        .title{
+          font-family: 'Dancing Script', cursive;
+          font-size: 40px;
+          text-shadow: 9px -9px 15px #333333;
+        }
 
-      .p{
-        font-family: 'Dancing Script', cursive;
-        font-size: 30px;    
-      }
+        .banner-container-text{
+          color: #ececec;
+          width: 70%;
+          float: left;
+          padding-left: 0%;
+          text-align: center;
+          padding-top: 4%;
+        }
 
-      .p2{
-        font-family: 'Dancing Script', cursive;
-        font-size: 60px;    
+        .p{
+          font-family: 'Dancing Script', cursive;
+          font-size: 30px;    
+        }
+
+        .p2{
+          font-family: 'Dancing Script', cursive;
+          font-size: 60px;    
+        }
       }
 
 
 
       /****************************/
       /*          img             */
-      /*translateX(10px) translateY(5px) rotateZ(50deg) rotateY(20deg)*/
       /****************************/
 
       
@@ -168,12 +219,12 @@
         <a class="navbar-brand">
           <img src="https://lsoficial.000webhostapp.com/assets/media/WM.png" width="60" height="60" class="d-inline-block align-top" alt="" loading="lazy">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        </div>
+        </div> -->
       </div>
     </nav>
     <div class="banner">
@@ -190,19 +241,19 @@
     </div>
     <div class="container py-5">
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col-lg-4">
+        <div class="col-4">
           <img class="rounded-circle" src="https://kevaosportafolio.000webhostapp.com/KevinDv/public/multimedia/favicon.png" alt="Generic placeholder image" width="140" height="140">
           <h2>Developer</h2>
           <p>Kevin A. Orrego M.</p>
           <p><a class="btn btn-secondary" href="https://kevaosportafolio.000webhostapp.com/index" target="_blank" role="button">visit my website &raquo;</a></p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-4">
           <img class="rounded-circle" src="https://lsoficial.000webhostapp.com/assets/media/WM.png" alt="Generic placeholder image" width="140" height="140">
           <h2>Download</h2>
           <p>Download it now at LernSoft</p>
           <p><a class="btn btn-secondary" href="https://lsoficial.000webhostapp.com/?p=app&id=1" target="_blank" role="button">Download Now &raquo;</a></p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-4">
           <img class="rounded-circle" src="https://lsoficial.000webhostapp.com/assets/media/lern3dv2.png" alt="Generic placeholder image" width="140" height="140">
           <h2>LernSoft</h2>
           <p>we have more applications on our platform lsoficial.000webhostapp.com</p>
