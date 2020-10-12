@@ -1,0 +1,48 @@
+#header{
+	background: url('../media/baner1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	height: 40vh;
+}
+
+#banner1{
+	background: url('../media/baner2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.br-4{
+	border-radius: 20px;
+}
+
+.py-10{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+li{
+	list-style: none;
+}
+
+.fs-footer{
+	font-size: 2rem;
+}
+
+.bg-light .nav-link{
+	color: #333333;
+}
+
+/*.bg-nav{
+	background: #ffffffee;
+}*/
+
+.fs-nav{
+	font-size: 1.2rem;
+}
+
+.bg-dark .nav-link{
+	color: #eeeeee;
+}
