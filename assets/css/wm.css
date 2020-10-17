@@ -1,0 +1,173 @@
+li{list-style-type: none;}
+
+      :root {
+        --main-color: #353b48;
+        --color-1: #2f3640;
+        --color-2: #fefefe;
+        --color-3: #555555;
+      }
+
+      /****************************/
+      /*          fondos          */
+      /****************************/
+
+
+      .bg-main{background: var(--main-color);}
+
+      .bg-1{background: var(--color-1);}
+
+      .bg-2{background: var(--color-2);}
+
+      .bg-3{background: var(--color-3);}
+
+
+
+      /****************************/
+      /*          color           */
+      /****************************/
+
+
+      .top-bar>i{color: var(--color-2);}
+
+      .color-main{color: var(--main-color);}
+
+      .color-1{color: var(--color-1);}
+
+      .color-2{color: var(--color-2);}
+
+      .color-3{color: var(--color-3);}
+
+
+
+      /****************************/
+      /*          Banner          */
+      /****************************/
+
+      
+      @media (min-width: 720px) {
+        .banner{
+          background: url('https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; 
+          background-attachment: fixed;
+          border-top-left-radius: 0 200%;
+          padding-top: 50px; 
+          padding-bottom: 50px;
+          border-bottom-left-radius: 50%; 
+          border-bottom-right-radius: 50%; 
+        }
+
+        .img-banner{
+          width: 20%;
+          border: solid;
+          border-radius: 15px;
+          border-color: var(--color-2);
+          border-bottom-right-radius: 50%;
+          border-top-left-radius: 50%;
+          padding: 12px; 
+        }
+
+        .title{
+          font-family: 'Dancing Script', cursive;
+          font-size: 60px;
+          text-shadow: 9px -9px 15px #333333;
+        }
+
+        .banner-container-text{
+          color: #ececec;
+          width: 70%;
+          float: left;
+          padding-left: 0%;
+          text-align: center;
+          padding-top: 4%;
+        }
+
+        .p{
+          font-family: 'Dancing Script', cursive;
+          font-size: 30px;    
+        }
+
+        .p2{
+          font-family: 'Dancing Script', cursive;
+          font-size: 60px;    
+        }
+      }
+
+      @media (max-width: 719px) {
+        .banner{
+          background: url('https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 50vh; 
+          background-attachment: fixed;
+          border-top-left-radius: 0 200%;
+          padding-top: 50px; 
+          padding-bottom: 50px;
+          border-bottom-left-radius: 50%; 
+          border-bottom-right-radius: 50%; 
+        }
+
+        .img-banner{
+          width: 20%;
+          border: solid;
+          border-radius: 15px;
+          border-color: var(--color-2);
+          border-bottom-right-radius: 50%;
+          border-top-left-radius: 50%;
+          padding: 12px; 
+        }
+
+        .title{
+          font-family: 'Dancing Script', cursive;
+          font-size: 40px;
+          text-shadow: 9px -9px 15px #333333;
+        }
+
+        .banner-container-text{
+          color: #ececec;
+          width: 70%;
+          float: left;
+          padding-left: 0%;
+          text-align: center;
+          padding-top: 4%;
+        }
+
+        .p{
+          font-family: 'Dancing Script', cursive;
+          font-size: 30px;    
+        }
+
+        .p2{
+          font-family: 'Dancing Script', cursive;
+          font-size: 60px;    
+        }
+      }
+
+
+
+      /****************************/
+      /*          img             */
+      /****************************/
+
+      
+      .img-1{
+        transform: skewX(-10deg) skewY(10deg);
+        transition: 0.5s;
+      }
+
+      .img-1:hover{
+        transform: skewX(0deg) skewY(0deg);
+        transition: 0.5s;
+      }
+
+      .img-2{
+        transform: skewX(10deg) skewY(-10deg);
+        transition: 0.5s;
+      }
+
+      .img-2:hover{
+        transform: skewX(0deg) skewY(0deg);
+        transition: 0.5s;
+      }
