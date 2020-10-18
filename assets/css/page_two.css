@@ -1,0 +1,51 @@
+
+:root {
+  --color-1: #222222;
+  --color-2: #fefefe;
+  --color-3: #22222222;
+}
+
+
+
+/****************************/
+/*          fondos          */
+/****************************/
+
+
+.bg-1{background: var(--color-1);}
+
+.bg-2{background: var(--color-2);}
+
+.bg-3{background: var(--color-3);}
+
+
+
+/****************************/
+/*          color           */
+/****************************/
+
+a.top-bar{color: var(--color-1);}
+
+.color-1{color: var(--color-1);}
+
+.color-2{color: var(--color-2);}
+
+.color-3{color: var(--color-3);}
+	
+
+
+#header{
+	background: url('../media/baner2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#baner{
+	background: url('../media/baner3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
