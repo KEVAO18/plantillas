@@ -1,0 +1,49 @@
+.h-100-v{
+  height: 100vh;
+}
+
+#header{
+  background: url('https://res.cloudinary.com/spacejoy/image/upload/c_scale,w_1500,q_auto/v1588889971/server/designs/render/5eb48972874de9001d98da14.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media (min-width: 500px) {
+ .my-10-r{
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+  } 
+}
+
+@media (max-width: 500px) {
+ .my-10-r{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  } 
+}
+
+.nav-link{
+  color: aliceblue;
+}
+.nav-link:hover{
+  color: azure;
+}
+
+.link:hover{
+  text-decoration: none;
+}
+
+.h-card{
+  height: 100%;
+}
+
+.bg-dark-blur{
+  background: #4040409e;
+  backdrop-filter: blur(4px);
+}
+
+.fs-1{
+  font-size: 2rem;
+}
